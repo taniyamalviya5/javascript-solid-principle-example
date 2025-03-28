@@ -1,5 +1,6 @@
 // A subclass should be able to substitute its parent
 // class without breaking the functionality
+
 // Let's suppose we have a *Rectangle* factory function and a *Square*
 // factory function. A *Square* is a special type of *Rectangle* where
 // the width and height are equal. We want to ensure that a *Square*
