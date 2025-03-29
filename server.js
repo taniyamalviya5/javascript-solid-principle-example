@@ -1,9 +1,11 @@
 const SRP = require("./single_responsibility");
-const OPENCLOSED = require("./open_closed");
+const OCP = require("./open_closed");
 const LSP = require("./liskov_substitution");
 const ISP = require("./interface_segregation");
+const DIP = require("./dependency_inversion");
 
 SRP();
-OPENCLOSED();
+OCP();
 LSP();
 ISP();
+DIP();
